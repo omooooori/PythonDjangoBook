@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="table">
+        <table border="1">
+            <thead>
+                <th>Country Name</th>
+                <th>Country Flag</th>
+                <th>GDP(Millions of USD)</th>
+            </thead>
+            <tr>
+                <td>USA</td>
+                <td><img src="America.png" alt="America.png not found" width="100"></td>
+                <td>18,561,930</td>
+            </tr>
+            <tr>
+                <td>India</td>
+                <td><img src="India.png" alt="India.png not found" width="100"></td>
+                <td>2,250,990</td>
+            </tr>
+            <tr>
+                <td>United Kingdom</td>
+                <td><img src="United_Kingdom.png" alt="United_Kingdom.png not found" width="100"></td>
+                <td>2,649,890</td>
+            </tr>
+        </table>
+    </div>
+    
+    <div class="form">
+        <form>
+            <p>Enter E-mail:</p>
+            <input type="email" name="useremail" value="">
+            <input type="submit" name="" value="Submit">
+        </form>
+        <form>
+            <p>Enter Text:</p>
+            <input type="text" name="userinput" value="">
+            <input type="submit" name="" value="Submit">
+        </form>
+        <form action="http://www.facebook.com">
+            <p>Enter Text and take me to FB:</p>
+            <input type="text" name="userinput" value="">
+            <input type="submit" name="" value="Submit">
+        </form>
+    </div>
+
+    <div class="label">
+        <form>
+            <label>
+                Enter Text:
+                <input type="text" name="" value="block one">
+            </label>
+            <label>
+                Enter Text:
+                <input type="text" name="" value="block two">
+            </label>
+        </form>
+
+        <form>
+            <label for="userinput">Enter Input:</label>
+            <input type="text" name="" placeholder="Not required">
+            <input id="userinputt" type="text" name="" placeholder="Enter E-mail here" required>
+            <input type="submit" name="" value="Submit">
+        </form>
+    </div>
+
+    <div class="VariousComponent">
+        <h1>Hotel Feedback Form</h1>
+
+        <form method="get">
+            <h2>Are you from inside the US ? Or Outside the US ?</h2>
+            <label for="inusa">Inside: </label>
+            <input id="inusa" type="radio" name="loc" value="">
+
+            <label for="outusa">Outside: </label>
+            <input id="outusa" type="radio" name="loc" value="">
+
+            <p>How was your service ?</p>
+            <label for=""></label>
+            <select name="stars" id="">
+                <option value="Great">3</option>
+                <option value="Okay">2</option>
+                <option value="Bad">1</option>
+            </select>
+
+            <h2>Any other feedback ?</h2>
+            <textarea name="mytext" id="" cols="80" rows="8"></textarea>
+
+            <input type="submit" name="" value="Submit">
+        </form>
+
+    </div>
+    
+</body>
+</html>
