@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h2>Course Sign Up Page</h2>
+    <h3>Please Note: First Name, Password, and Email are required!</h3>
+
+    <form action="thankyou_page.html" method="get">
+        <div class="name_input">
+            <label for="first_name">First Name: </label>
+            <input id="first_name" type="text" name="fname" placeholder="First Name" required>
+
+            <label for="second_name">First Name: </label>
+            <input id="second_name" type="text" name="sname" placeholder="Second Name">
+        </div>
+
+        <br>
+
+        <div class="email_and_password_input">
+            <label for="email">Email: </label>
+            <input id="email" type="email" name="mailaddress" placeholder="name@email.com" required>
+            
+            <label for="pass">Password: </label>
+            <input id="pass" type="password" name="password" required>
+        </div>
+
+        <br>
+
+        <div class="check_year">
+            <h3>Are you over the age of 18 ?</h3>
+            <label for="yes">Yes: </label>
+            <input type="radio" name="year" value="">
+            <label for="no">No: </label>
+            <input type="radio" name="year" value="">
+        </div>
+
+        <br>
+
+        <div class="card_information">
+            <h3>Do you have a Credit Card or PayPal ?</h3>
+            <select name="cardInfo" id="">
+                <option value="hasCreditCard">Credit Card</option>
+                <option value="hasPayPal">PayPal</option>
+                <option value="hasNothing">No</option>
+            </select>
+        </div>
+
+        <br>
+
+        <input type="submit" name="" value="Sign Up">
+        
+    </form>
+    
+</body>
+</html>
