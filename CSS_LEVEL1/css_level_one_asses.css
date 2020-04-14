@@ -1,0 +1,50 @@
+/* global setting */
+body {
+    background-color: cyan;
+}
+
+h3 {
+    color: blue;
+}
+
+/* blog_header div */
+.blog_header h2 {
+    border: 2px solid;
+}
+
+/* what_is_this_blog div */
+.item1 {
+    border-top: 1px solid  cornflowerblue;
+}
+
+.item3 {
+    text-decoration: underline;
+}
+
+/* textarea div */
+
+/* log-in div */
+.log-in input {
+    border: 2px solid rgb(144,0,0)
+}
+
+/* feedback div */
+.feedback {
+    background-color: blue;
+    border: 5px dashed yellow;
+}
+
+/* id */
+#thankyou_sentence {
+    background-color: rgb(81, 255, 139);
+}
+
+#feedback_direction {
+    background-color: rgb(81, 255, 139);
+}
+
+#textblock {
+    border: 5px solid gray;
+    width: 600px;
+    height: 300px
+}
