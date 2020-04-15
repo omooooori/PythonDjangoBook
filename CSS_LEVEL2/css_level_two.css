@@ -1,0 +1,32 @@
+body {
+    font-size: 20px;;
+}
+
+h1 {
+    font-family: "Barrio";
+}
+
+p {
+    font-family: monospace;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#two {
+    font-size: 2.0em;
+}
+
+#top {
+    border: 4px solid blue;
+    width: 25%;
+    text-align: center;
+    /* top, right, bottom, left */
+    /* margin: 10px 20px 100px 400px; */
+    margin: auto;
+}
+
+#bottom {
+    border: 4px solid red;
+    width: 50%;
+    padding: 200px;
+}
