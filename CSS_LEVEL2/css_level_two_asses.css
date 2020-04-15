@@ -1,0 +1,37 @@
+h3 {
+    text-align: center;
+    font-family: "Lexend Giga";
+}
+
+.art {
+    margin: auto;
+    padding: 50px;
+}
+
+td {
+    background-color: black;
+    height: 300px;
+    width: 150px;
+    border: 6px solid white;
+}
+
+.l2 {
+    background-color: #252934;
+}
+
+.l1 {
+    background-color: #FECA74;
+}
+
+.c {
+    background-color: #76BBB8;
+}
+
+.r1 {
+    background-color: #DF6A3F;
+}
+
+.r2 {
+    background-color: #023D6A;
+}
+
