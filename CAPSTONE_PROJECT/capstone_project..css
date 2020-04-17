@@ -1,0 +1,49 @@
+body {
+    font-family: 'Roboto', san-serif;
+    color: #fff;
+    
+    background-color: #1D2C4C;
+
+    border:  #979DAD solid 40px;
+    border-top: 0px;
+    border-bottom: 0px;
+
+    /* margin: auto; */
+    /* padding: 20px; */
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+
+    padding-top: 5%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+form {
+    font-size: 1.5em;
+    
+    margin-bottom: 10px;
+}
+
+/* input {
+    padding-left: 100px;
+    padding-right: 100px;
+} */
+
+#submit {
+    font-size: 1.5em;;
+
+    background-color: #FF9F1C;
+
+    border-radius: 25px;
+
+    margin: 4px;
+    margin-top: 12px;
+
+    padding-left: 30px;
+    padding-top: 10px;;
+    padding-right: 30px;
+    padding-bottom: 10px;
+}
