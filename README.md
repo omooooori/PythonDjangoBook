@@ -21,3 +21,7 @@ Not yet
 
 #### Step5 Advanced page
 ![2020-04-17_09h15_41](https://user-images.githubusercontent.com/34413373/79518503-34edd500-808c-11ea-8dd2-95bdf6858fa6.png)
+
+#### Step6 Bootstrap page
+![2020-04-18_13h53_07](https://user-images.githubusercontent.com/34413373/79628441-0bac7200-817c-11ea-820e-593bb04ec655.png)
+
