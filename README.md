@@ -25,3 +25,5 @@ Not yet
 #### Step6 Bootstrap page
 ![2020-04-18_13h53_07](https://user-images.githubusercontent.com/34413373/79628441-0bac7200-817c-11ea-820e-593bb04ec655.png)
 
+### Canvas page
+![2020-04-30_15h05_56](https://user-images.githubusercontent.com/34413373/81498429-e71d6300-92ff-11ea-8161-d2e63a0fbd7e.png)
